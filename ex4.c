@@ -9,6 +9,12 @@ int main(void){
   int num;
   int heads_sum=0;
   int tails_sum=0;
+  char name[20];
+
+  //name_added
+  printf("Who are you?\n");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
 
   srand(time(NULL));
 
